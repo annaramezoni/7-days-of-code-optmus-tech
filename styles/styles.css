@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+ --main-font: inter, sans-serif;
+ --primary-color: #667085;
+ --logo-color: #3A404E;
+ --secondary-color: #101828;
+ --terciary-color: #8E2424;
+ --color-white: #FFF;
+}
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 1rem;
+    font-family: var(--main-font);
+}
+
+a {
+    text-decoration: none;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 5em;
+    font-weight: 500;
+}
+
+.heading__logo,
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.heading__nav,
+.heading__nav__btns{
+    gap: 2em;
+}
+
+.heading__nav {
+    margin-left: 7em;
+    margin-right: auto;
+}
+
+.logo__name{
+    margin-left: 0.5em;
+    color: var(--logo-color);
+    font-size: 1.1rem;
+}
+
+.nav__link,
+.heading__nav__btns :first-child {
+    color: var(--primary-color);
+}
+
+.nav__btn:nth-child(2) {
+    color: var(--color-white);
+    background-color: var(--terciary-color);
+    border-radius: 0.5em;
+    padding: 0.75em 1.25em; /*If the font-size scales up, the button scales up too*/
+    line-height: 1.2em;
+    text-align: center;
+}
+/*Section Abaout*/
+.about {
+    text-align: center;
+    padding: 6em 27%;
+}
+.about__text {
+    color: var(--terciary-color);
+    font-weight: 600;
+}
+.about__title {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 1.5rem 0;
+}
+.about__paragraph {
+    color: var(--primary-color);
+    font-size: 1.25rem;
+}

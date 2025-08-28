@@ -48,8 +48,7 @@ a {
     color: var(--color-white);
     background-color: var(--terciary-color);
     border-radius: 0.5em;
-    padding: 0.75em 1.25em; /*If the font-size scales up, the button scales up too*/
-    line-height: 1.2em;
+    padding: 0.75em 1.5em; /*If the font-size scales up, the button scales up too*/
     text-align: center;
 }
 /*Section Abaout*/
@@ -70,3 +69,6 @@ a {
     color: var(--primary-color);
     font-size: 1.25rem;
 }
+
+/*Section metrics*/
+

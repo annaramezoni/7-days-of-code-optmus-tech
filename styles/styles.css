@@ -72,3 +72,28 @@ a {
 
 /*Section metrics*/
 
+.metrics-wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 6rem;
+}
+
+.metrics {
+    text-align: left;
+    max-width: 280px;
+}
+
+.metrics__title {
+    color: var(--terciary-color);
+    font-size: 3.75rem;
+    font-weight: 600;
+}
+
+.metrics__subtitle {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 0.7em 0 0.5em 0;
+}
+.metrics__text {
+    color: var(--primary-color)
+}

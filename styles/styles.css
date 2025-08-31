@@ -7,6 +7,7 @@
  --secondary-color: #101828;
  --terciary-color: #8E2424;
  --color-white: #FFF;
+ --border-color: #EAECF0;
 }
 html {
     font-size: 16px;
@@ -126,3 +127,41 @@ a {
     font-size: 1.3rem;
     margin-bottom: 4rem;
 }
+
+/* jobs */
+
+.jobs {
+    width: 50%;
+    margin: 0 auto;
+}
+.job-area h3,
+.job-area h4 {
+    color: var(--secondary-color);    
+}
+.job-area {
+    margin-bottom: 4rem;
+}
+.job-area__title {
+    font-size: 1.25rem;
+    color: var(--secondary-color);
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.position__item{
+    padding: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    margin: 1rem 0;;
+}
+.position__info {
+    color: var(--primary-color);
+    font-weight: 500;
+}
+.position__title {
+    margin-bottom: 2em;
+    color: var(--secondary-color);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+

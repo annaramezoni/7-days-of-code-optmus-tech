@@ -165,3 +165,39 @@ a {
     font-weight: 500;
 }
 
+/*Testimonials*/
+
+.testimonials {
+    background-color: #C3191908;
+    padding: 4rem;
+    text-align: center;
+    margin: 0 7rem;
+}
+
+.testimonials__text {
+    color: var(--terciary-color);
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.testimonials__opinion {
+    display: block;
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: var(--secondary-color);
+    line-height: 44px;
+    margin-bottom: 2rem;
+}
+.testimonials__img {
+    display: inline-block;
+}
+.testimonials__name {
+    color: var(--secondary-color);
+    font-weight: 500;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.testimonials__job {
+    font-size: 0.9rem;
+}

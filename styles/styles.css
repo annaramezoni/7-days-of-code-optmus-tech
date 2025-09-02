@@ -201,3 +201,61 @@ a {
 .testimonials__job {
     font-size: 0.9rem;
 }
+
+/*contact*/
+
+.contact {
+    padding: 19rem 6rem;
+    text-align: center;
+}
+
+.contact__title {
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: var(--secondary-color);
+    margin-bottom: 1.2rem;
+}
+
+.contact__text {
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+}
+.contact__form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.contact__email {
+    width: 360px;
+    height: 48px;
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+    color: var(--primary-color);
+    padding-left: 1rem;
+    box-sizing: border-box;
+}
+.contact__email::placeholder {
+    font-family: var(--main-font);
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--primary-color);
+}
+
+.contact__btn {
+    /* display: inline-block; */
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0rem 1.2rem;
+    color: var(--color-white);
+    background-color: var(--terciary-color);
+    border-radius: 8px;
+    height: 48px;
+    line-height: 48px;
+    box-sizing: border-box;
+}
+
+.contact__copyright {
+    color: #D0D5DD;
+    margin-top: 2rem;
+}
